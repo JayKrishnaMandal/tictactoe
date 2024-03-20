@@ -27,7 +27,7 @@ gridItems.forEach(gridItem => {
 				gameBoard[bestMove] = currentPlayer;
 				displayMessage(" Its Your turn ");
 				checkWin(currentPlayer);
-				currentPlayer=opponent;},1000);
+				currentPlayer=opponent;},200);
 				
 				return;
 			}
